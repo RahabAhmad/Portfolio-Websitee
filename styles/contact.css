@@ -1,0 +1,67 @@
+/* Shared Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4caf50;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+  }
+  
+  nav a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Contact Page Specific Styles */
+  main {
+    padding: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea, button {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
